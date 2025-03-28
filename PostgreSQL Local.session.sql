@@ -88,10 +88,10 @@ VALUES (1, 4, 100),
 
 INSERT INTO quests (player_id, quest_name, quest_description, quest_type, reward, active)
 VALUES (1, 'Another hand...', 'Use Meridias beacon to cleanse her temple.', 'Optional', '100 EXP', TRUE),
-    (2, 'The hunt begins', 'Hunt a Rathalos after selecting your weapon.', 'Main', '250 EXP', TRUE),
+    (2, 'The hunt begins', 'Hunt a Rathalos after selecting your weapon.', 'Main', '250 EXP', FALSE),
     (3, 'Must have been the wind', 'Using an invisibility potion, sneak into the Jarls longhouse.', 'Optional', '150 EXP', TRUE),
-    (4, '', '', '', '', TRUE),
-    (5, '', '', '', '', TRUE);
+    (1, 'Let the games begin', 'Complete a chess match.', 'Main', '300 EXP', TRUE),
+    (5, 'Pierce the Heavens', 'Who the hell do you think I am?', 'Main', '500 EXP', TRUE);
 
 SELECT * FROM players;
 SELECT * FROM items;
